@@ -1,0 +1,69 @@
+.center {
+    margin: 0 auto;
+}
+
+.circular {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url('../img/ctcLogo.png') no-repeat;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+
+.team,
+.circular {
+    background: url('../img/ctcLogo.png') no-repeat;
+}
+
+.homeThreeCol {
+    text-align: center;
+}
+
+#miniLogo {
+    width: 70px;
+    float: left;
+    margin: -15px;
+}
+
+.lightboxPic {
+    width: 150px;
+    margin: 15px;
+    border: 3px solid gray;
+}
+
+#lightboxContainer {
+    margin:0 auto;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.control-group {
+    margin-left: -145px;
+}
+
+.form-actions {
+    background-color: transparent;
+    border-top: 0px;
+    margin-top: -10px;
+    margin-left: 15px;
+}

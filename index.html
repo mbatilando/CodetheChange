@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Template &middot; Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 60px;
+      }
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+      .container > hr {
+        margin: 60px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 80px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 100px;
+        line-height: 1;
+      }
+      .jumbotron .lead {
+        font-size: 24px;
+        line-height: 1.25;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;                       
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+        margin: 0;
+        display: table;
+        width: 100%;
+      }
+      .navbar .nav li {
+        display: table-cell;
+        width: 1%;
+        float: none;
+      }
+      .navbar .nav li a {
+        font-weight: bold;
+        text-align: center;
+        border-left: 1px solid rgba(255,255,255,.75);
+        border-right: 1px solid rgba(0,0,0,.1);
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/circular.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <script src="assets/js/jquery-1.7.2.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/jquery.scrollto.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="masthead">
+        <img id="miniLogo" src="assets/img/ctcLogomin.png"></img>
+        <h3 class="muted">Code the Change</h3>
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container-fluid">
+              <ul class="nav">
+                <li><a id="homeBut" href="#">Home</a></li>
+                <li><a id="projBut" href="#">Projects</a></li>
+                <li><a id="teamBut" href="#">Team</a></li>
+                <li><a id="aboutBut" href="#">About</a></li>
+                <li><a id="contactBut" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- /.navbar -->
+      </div>
+
+      <!-- Jumbotron -->
+      <div id="homeSec" class="jumbotron">
+        <img src="assets/img/ctcLogo.png"></img>
+        <p class="lead">Code the Change helps computer scientists use their skills for social change to make social change an integral part of computer science culture.</p>
+        <a href="#" class="btn btn-success btn-large"><i class="icon-globe"></i> Join Us!</a>
+      </div>
+
+      <hr>
+
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="circular center">
+          </div>
+
+          <div class="homeThreeCol">
+            <h2>Technical</h2>
+            <p>Our projects range the spectrum from doing data visualization for a California college prep nonprofit that was in the process of scaling up to using Android phones to track agricultural diseases in Uganda.</p>
+          </div>
+        </div>
+
+        <div class="span4">
+          <div class="circular center">
+          </div>
+
+          <div class="homeThreeCol">
+            <h2>Something</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          </div>
+       </div>
+
+        <div class="span4">
+          <div class="circular center">
+          </div>
+
+          <div class="homeThreeCol">
+            <h2>Change</h2>
+            <p>We also try to foster longer term engagement between organizations and programmers after Code Jams, and we provide career counseling to students interested in volunteering, interning, or programming full time for social change.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div id="projSec" class="row-fluid">
+        <h1>Projects</h1>
+
+        <div id="lightboxContainer" class="imageRow">
+          <div class="set">
+            <div class="single first" style="float:left">
+              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 1 0f 4 thumb"/></a>
+            </div>
+            <div class="single" style="float:left">
+              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder" ><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 2 0f 4 thumb" width=100//></a>
+            </div>
+            <div class="single" style="float:left">
+              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 3 0f 4 thumb" width=100//></a>
+            </div>
+            <div class="single" style="float:left">
+              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 3 0f 4 thumb" width=100//></a>
+            </div>
+            <div class="single last" style="float:left">
+              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 4 0f 4 thumb" width=100//></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div id="teamSec" class="row-fluid">
+        <h1>Team</h1>
+        <div class="span12">
+          
+          <div style="float:left; margin: 35px" class="circular center">
+            </div>
+            <div style="float:left; margin: 35px" class="circular center">
+            </div>
+            <div style="float:left; margin: 35px" class="circular center">
+            </div>
+            <div style="float:left; margin: 35px" class="circular center">
+            </div>
+         </div>
+      </div>
+
+
+      <hr>
+
+      <div id="contactSec" class="row-fluid">
+        <h1>Contact Us!</h1>
+        <div class="span12">
+          <div class="span4">
+            <form method="POST" action="contact-form-submission.php" class="form-horizontal">  
+              <div class="control-group">  
+                  <label class="control-label" for="input1">Name</label>  
+                  <div class="controls">  
+                      <input type="text" name="contact_name" id="input1" placeholder="Your name">  
+                  </div>  
+              </div>  
+              <div class="control-group">  
+                  <label class="control-label" for="input2">Email</label>  
+                  <div class="controls">  
+                      <input type="text" name="contact_email" id="input2" placeholder="Your email address">  
+                  </div>  
+              </div>  
+              <div class="control-group">  
+                  <label class="control-label" for="input3">Note</label>  
+                  <div class="controls">  
+                      <textarea name="contact_message" id="input3" rows="5" placeholder="The message you want to send to me."></textarea>  
+                  </div>  
+              </div>  
+              <div class="form-actions">  
+                  <input type="hidden" name="save" value="contact">  
+                  <button type="submit" class="btn btn-success">Send</button>  
+              </div>  
+            </form>  
+          </div>
+        
+          <div class="span8">
+            <div class="Flexible-container">
+              <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=Bern&amp;aq=&amp;sll=46.813187,8.22421&amp;sspn=3.379772,8.453979&amp;ie=UTF8&amp;hq=&amp;hnear=Bern&amp;t=m&amp;z=12&amp;ll=46.947922,7.444608&amp;output=embed&amp;iwloc=near"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="footer">
+        <p>&copy; Code the Change 2013</p>
+      </div>
+
+    
+  </body>
+</html>
