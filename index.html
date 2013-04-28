@@ -8,87 +8,17 @@
     <meta name="author" content="Mari Batilando">
 
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 20px;
-        padding-bottom: 60px;
-      }
-
-      /* Custom container */
-      .container {
-        margin: 0 auto;
-        max-width: 1000px;
-      }
-      .container > hr {
-        margin: 60px 0;
-      }
-
-      /* Main marketing message and sign up button */
-      .jumbotron {
-        margin: 80px 0;
-        text-align: center;
-      }
-      .jumbotron h1 {
-        font-size: 100px;
-        line-height: 1;
-      }
-      .jumbotron .lead {
-        font-size: 24px;
-        line-height: 1.25;
-      }
-      .jumbotron .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-      }
-
-      /* Supporting marketing content */
-      .marketing {
-        margin: 60px 0;                       
-      }
-      .marketing p + h4 {
-        margin-top: 28px;
-      }
-
-
-      /* Customize the navbar links to be fill the entire space of the .navbar */
-      .navbar .navbar-inner {
-        padding: 0;
-      }
-      .navbar .nav {
-        margin: 0;
-        display: table;
-        width: 100%;
-      }
-      .navbar .nav li {
-        display: table-cell;
-        width: 1%;
-        float: none;
-      }
-      .navbar .nav li a {
-        font-weight: bold;
-        text-align: center;
-        border-left: 1px solid rgba(255,255,255,.75);
-        border-right: 1px solid rgba(0,0,0,.1);
-      }
-      .navbar .nav li:first-child a {
-        border-left: 0;
-        border-radius: 3px 0 0 3px;
-      }
-      .navbar .nav li:last-child a {
-        border-right: 0;
-        border-radius: 0 3px 3px 0;
-      }
-    </style>
-    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-    <link rel="stylesheet" href="assets/css/circular.css">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="../assets/ico/favicon.png">
     <link rel="icon" type="image/png" href="assets/img/ctcfav.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/circular.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
     <script src="assets/js/jquery-1.7.2.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/lightbox.js"></script>
@@ -130,10 +60,9 @@
           <div class="navbar-inner">
             <div class="container-fluid">
               <ul class="nav">
-                <li><a id="homeBut" href="#">Home</a></li>
+                <li><a id="aboutBut" href="#">About</a></li>
                 <li><a id="projBut" href="#">Projects</a></li>
                 <li><a id="teamBut" href="#">Team</a></li>
-                <li><a id="aboutBut" href="#">About</a></li>
                 <li><a id="contactBut" href="#">Contact</a></li>
               </ul>
             </div>
@@ -186,15 +115,14 @@
 
       <div id="aboutSec" class="row-fluid">
         <h1>About Us</h1>
-            <div id="aboutUsCirc" class="circular center">
-            </div>
-          
+        <div id="aboutUsCirc" class="circular center">
+        </div>
 
-          <p>Code the Change at Berkeley is an organization that empowers computer scientists and engineers to use their technical skills for social good through non-profit projects.</p>
+        <p>Code the Change at Berkeley is an organization that empowers computer scientists and engineers to use their technical skills for social good through non-profit projects.</p>
 
-          <p>We form project teams to assist non-profits in achieving their goals, whether it be through web development or mobile app design. Our project teams are comprised of Cal students with a passion for both technology and the social sector. We believe that as long as you’re willing to learn, you’re welcome to join us in our project teams where you can develop your technical abilities and form meaningful relationships with members who share similar interests.</p>
+        <p>We form project teams to assist non-profits in achieving their goals, whether it be through web development or mobile app design. Our project teams are comprised of Cal students with a passion for both technology and the social sector. We believe that as long as you’re willing to learn, you’re welcome to join us in our project teams where you can develop your technical abilities and form meaningful relationships with members who share similar interests.</p>
 
-          <p>Code the Change has active chapters on both the UC Berkeley and Stanford campuses. You can learn more about the Stanford chapter <a href="https://codethechange.org" target="blank">here</a>.</p>
+        <p>Code the Change has active chapters on both the UC Berkeley and Stanford campuses. You can learn more about the Stanford chapter <a href="https://codethechange.org" target="blank">here</a>.</p>
       </div>
 
       <hr>
@@ -205,19 +133,13 @@
         <div id="lightboxContainer" class="imageRow">
           <div class="set">
             <div class="single first" style="float:left">
-              <a href="assets/img/glowLogo.png" rel="lightbox[projects]" title="Founded in 2006, GLOW’s mission is to build the capacity of schools and nonprofits to help empower under-resourced students and their families to overcome barriers to higher education access and success. We have been helping them create a mobile app on the Android platform so that they can easily communicate with and aid their students."><img src="assets/img/glowLogo.png" class="lightboxPic" alt="Project 1 0f 4 thumb"/></a>
+              <a href="assets/img/glowLogo.png" rel="lightbox[projects]" title="Founded in 2006, GLOW’s mission is to build the capacity of schools and nonprofits to help empower under-resourced students and their families to overcome barriers to higher education access and success. We have been helping them create a mobile app on the Android platform so that they can easily communicate with and aid their students."><img src="assets/img/glowLogo.png" class="lightboxPic" alt="Project 1 0f 4 thumb"></a>
             </div>
             <div class="single" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[projects]" title="This is a placeholder" ><img src="assets/img/aaciLogo.jpg" class="lightboxPic" alt="Project 2 0f 4 thumb" width=100//></a>
-            </div>
-            <div class="single" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/meerkatLogo.png" class="lightboxPic" alt="Image 3 0f 4 thumb" width=100//></a>
-            </div>
-            <div class="single" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 3 0f 4 thumb" width=100//></a>
+              <a href="assets/img/placeholder.png" rel="lightbox[projects]" title="This is a placeholder" ><img src="assets/img/aaciLogo.jpg" class="lightboxPic" alt="Project 2 0f 4 thumb"></a>
             </div>
             <div class="single last" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[plants]" title="This is a placeholder"><img src="assets/img/placeholder.png" class="lightboxPic" alt="Image 4 0f 4 thumb" width=100//></a>
+              <a href="assets/img/placeholder.png" rel="lightbox[projects]" title="This is a placeholder"><img src="assets/img/meerkatLogo.png" class="lightboxPic" alt="Project 3 0f 4 thumb"></a>
             </div>
           </div>
         </div>
@@ -229,7 +151,6 @@
       <div id="teamSec" class="row-fluid">
         <h1>Officers</h1>
         <div class="span12">
-
           <ul class="ch-grid">
             <li>
               <div class="ch-item ch-img-1">
@@ -239,6 +160,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-2">
                 <div class="ch-info">
@@ -247,6 +169,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-3">
                 <div class="ch-info">
@@ -255,6 +178,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-3">
                 <div class="ch-info">
@@ -263,6 +187,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-1">
                 <div class="ch-info">
@@ -271,6 +196,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-1">
                 <div class="ch-info">
@@ -279,6 +205,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-1">
                 <div class="ch-info">
@@ -287,6 +214,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-1">
                 <div class="ch-info">
@@ -295,6 +223,7 @@
                 </div>
               </div>
             </li>
+
             <li>
               <div class="ch-item ch-img-1">
                 <div class="ch-info">
@@ -314,7 +243,6 @@
         <h1>Contact Us!</h1>
 
         <div class="span12">
-
           <div id="mapCont" class="span7">
             <div class="Flexible-container">
                 <div id="MyGmaps" style="width:600px;height:400px;border:1px solid #CECECE;"></div>
@@ -323,33 +251,32 @@
 
           <div id="contactFormCont" class="span5">
             <div style="text-align:left">
-            <form method="POST" action="contact-form-submission.php" class="form-vertical">  
-              <div class="control-group">  
-                  <label class="control-label" for="input1">Name</label>  
-                  <div class="controls">  
+              <form method="POST" action="contact-form-submission.php" class="form-vertical">  
+                <div class="control-group">  
+                    <label class="control-label" for="input1">Name</label>  
+                    <div class="controls">  
                       <input type="text" class="input-xlarge" name="contact_name" id="input1" placeholder="Nickname preferred">  
-                  </div>  
-              </div>  
-              <div class="control-group">  
-                  <label class="control-label" for="input2">Email</label>  
-                  <div class="controls">  
+                    </div>  
+                </div>  
+                <div class="control-group">  
+                    <label class="control-label" for="input2">Email</label>  
+                    <div class="controls">  
                       <input type="text" class="input-xlarge" name="contact_email" id="input2" placeholder="We will reply back to you soon!">  
-                  </div>  
-              </div>  
-              <div class="control-group">  
-                  <label class="control-label" for="input3">Message</label>  
-                  <div class="controls">  
-                      <textarea name="contact_message" class="span9" id="input3" rows="6" placeholder="Feel free to contact us with anything!"></textarea>  
-                  </div>  
-              </div>  
-              <div class="form-actions">  
+                    </div>  
+                </div>  
+                <div class="control-group">  
+                    <label class="control-label" for="input3">Message</label>  
+                    <div class="controls">  
+                      <textarea name="contact_message" class="span9" id="input3" rows="6" placeholder="Feel free to contact us about anything!"></textarea>  
+                    </div>  
+                </div>  
+                <div class="form-actions">  
                   <input type="hidden" name="save" value="contact">  
                   <button type="submit" class="btn btn btn-success"><i class="icon-ok"></i> Send</button>  
-              </div>  
-            </form>  
+                </div>  
+              </form>  
+            </div>
           </div>
-          </div>
-            
         </div>
       </div>
 

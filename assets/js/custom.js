@@ -1,7 +1,7 @@
  $(document).ready(function() {
 
- 	$("#homeBut").click(function(){
-	  $('#homeSec').ScrollTo({
+ 	$("#aboutBut").click(function(){
+	  $('#aboutSec').ScrollTo({
 	    duration: 200,
 	    easing: 'linear'
 		});
@@ -29,4 +29,6 @@
 	    easing: 'linear'
 		});
 	});
+
+	
 });
