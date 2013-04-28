@@ -80,9 +80,9 @@
 	position: relative;
 	letter-spacing: 2px;
 	font-size: 22px;
-	margin-top:-20px;
-	padding: 65px 0 0 0;
-	height: 110px;
+	margin-top:40px;
+	padding: 0px 0 0 0;
+	height: 30px;
 	font-family: 'Open Sans', Arial, sans-serif;
 	text-shadow: 
 		0 0 1px #fff, 
@@ -94,7 +94,7 @@
 	padding: 10px 5px;
 	font-style: italic;
 	margin: 0 30px;
-	font-size: 22px;
+	font-size: 16px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
