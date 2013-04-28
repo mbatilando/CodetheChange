@@ -17,9 +17,17 @@
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     }
 
-.team,
-.circular {
-    background: url('../img/ctcLogo.png') no-repeat;
+
+#aboutUsCirc {
+    background: url('../img/samking.jpg') no-repeat;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin: 15px 80px;
+}
+
+#description {
+    margin-top: 300px;
 }
 
 .homeThreeCol {
@@ -63,6 +71,8 @@
 .form-actions {
     background-color: transparent;
     border-top: 0px;
+    padding-left: 0px;
+    padding: 0px 0px;
 }
 
 
