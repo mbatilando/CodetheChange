@@ -57,13 +57,12 @@
     height: 100%;
 }
 
-.control-group {
-    margin-left: -145px;
-}
-
 .form-actions {
     background-color: transparent;
     border-top: 0px;
-    margin-top: -10px;
-    margin-left: 15px;
+}
+
+
+#mapCont {
+    margin-bottom: 20px;
 }
