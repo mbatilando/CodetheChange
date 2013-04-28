@@ -40,15 +40,15 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../img/ctcLogo.png);
+	background-image: url(../img/imageplaceholder.png);
 }
 
 .ch-img-2 { 
-	background-image: url(../img/ctcLogo.png);
+	background-image: url(../img/imageplaceholder.png);
 }
 
 .ch-img-3 { 
-	background-image: url(../img/ctcLogo.png);
+	background-image: url(../img/imageplaceholder.png);
 }
 
 .ch-info {
@@ -79,7 +79,7 @@
 	text-transform: uppercase;
 	position: relative;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: 14px;
 	margin-top:40px;
 	padding: 0px 0 0 0;
 	height: 30px;
@@ -94,7 +94,7 @@
 	padding: 10px 5px;
 	font-style: italic;
 	margin: 0 30px;
-	font-size: 16px;
+	font-size: 14px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 
