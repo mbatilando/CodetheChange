@@ -30,7 +30,7 @@
       function LoadGmaps() {
         var myLatlng = new google.maps.LatLng(37.8717477,-122.2609626);
         var myOptions = {
-          zoom: 16,
+          zoom: 17,
           center: myLatlng,
           disableDefaultUI: true,
           navigationControl: false,
@@ -140,18 +140,15 @@
       <div id="projSec" class="row-fluid">
         <h1>Projects</h1>
 
-        <div id="lightboxContainer" class="imageRow">
-          <div class="set">
-            <div class="single first" style="float:left">
-              <a href="assets/img/glowLogo.png" rel="lightbox[projects]" title="Founded in 2006, GLOW’s mission is to build the capacity of schools and nonprofits to help empower under-resourced students and their families to overcome barriers to higher education access and success. We have been helping them create a mobile app on the Android platform so that they can easily communicate with and aid their students."><img src="assets/img/glowLogo.png" class="lightboxPic" alt="Project 1 0f 4 thumb"></a>
+        <div class="container">
+            <div id="glowLogo" class="projLogo" data-toggle="tooltip" style="float:left" title="Founded in 2006, GLOW’s mission is to build the capacity of schools and nonprofits to help empower under-resourced students and their families to overcome barriers to higher education access and success. We have been helping them create a mobile app on the Android platform so that they can easily communicate with and aid their students."><img src="assets/img/glowLogo.png">
             </div>
-            <div class="single" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[projects]" title="This is a placeholder" ><img src="assets/img/aaciLogo.jpg" class="lightboxPic" alt="Project 2 0f 4 thumb"></a>
+            <div id="aaciLogo" class="projLogo" data-toggle="tooltip" style="float:left" title="This is a placeholder">
+              <img src="assets/img/aaciLogo.jpg">
             </div>
-            <div class="single last" style="float:left">
-              <a href="assets/img/placeholder.png" rel="lightbox[projects]" title="This is a placeholder"><img src="assets/img/meerkatLogo.png" class="lightboxPic" alt="Project 3 0f 4 thumb"></a>
+            <div id="meerkatLogo" class="projLogo" data-toggle="tooltip" title="This is a placeholder" style="float:left">
+              <img src="assets/img/meerkatLogo.png">
             </div>
-          </div>
         </div>
 
       </div>

@@ -30,5 +30,16 @@
 		});
 	});
 
+	$("#glowLogo").hover(function(){
+	   $("#glowLogo").tooltip("show");
+	});
 	
+	$("#aaciLogo").hover(function(){
+	   $("#aaciLogo").tooltip("show");
+	});
+
+	$("#meerkatLogo").hover(function(){
+	   $("#meerkatLogo").tooltip("show");
+	});
 });
+
