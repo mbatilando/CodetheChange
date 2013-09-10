@@ -1,3 +1,7 @@
+body {
+  background: url('../img/geometry.png')
+}
+
 .projLogo {
   margin-left: 15px;
   margin-right: 15px;
