@@ -131,6 +131,11 @@ body {
         margin-top: 28px;
       }
 
+      .apply-button {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
 
       /* Customize the navbar links to be fill the entire space of the .navbar */
       .navbar .navbar-inner {

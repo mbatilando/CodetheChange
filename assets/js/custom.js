@@ -28,7 +28,12 @@
 		});
 	});
 
-
+	$("#joinBut").click(function(){
+	  $('#joinSec').ScrollTo({
+	    duration: 200,
+	    easing: 'linear'
+		});
+	});
 
 	$("#contactBut").click(function(){
 	  $('#contactSec').ScrollTo({
